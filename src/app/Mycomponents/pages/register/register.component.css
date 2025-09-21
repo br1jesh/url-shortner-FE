@@ -1,0 +1,23 @@
+.register-container {
+  background: #f8f9fa; /* light gray background */
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 1rem;
+  overflow-y: auto; /* allow scrolling inside card if needed */
+  max-height: 90vh;  /* prevent card from overflowing viewport */
+}
+
+.card input {
+  height: 2.5rem;
+}
+
+.text-center a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
